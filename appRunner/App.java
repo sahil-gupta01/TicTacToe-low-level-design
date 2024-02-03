@@ -24,7 +24,8 @@ public class App {
         List<Player> players = new ArrayList<>();
         players.add(new Player('X',"Sahil", PlayerType.HUMAN, 1));
         players.add(new Bot('O',"Robo", PlayerType.BOT, 2, BotDifficultyLevel.EASY));
-        //players.add(new Player('0',"Shreya", PlayerType.HUMAN, 2));
+        //to check the InvalidPlayerCountException
+        //players.add(new Player('0',"Player2", PlayerType.HUMAN, 2));
 
 
         List<WinningStrategies> winningStrategies = new ArrayList<>();
